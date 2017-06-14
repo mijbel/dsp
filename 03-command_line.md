@@ -19,7 +19,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd
+> > mkdir directory
+> > rm -r directory
+> > touch filename
+> > rm filename
+> > mv oldfilename newfilename
+> > ls -a
+> > mv filename folder
+> > nano filename
+> > sort filename
 
 ---
 
@@ -34,15 +43,24 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > listing
+> > listing all files (inc. hidden)
+> > listing long form 
+> > listing long form with filesize in KB
+> > listing all files (inc. hidden) long form with filesize in KB
+> > listing files sorted by time modified
+> > listing files long form with colorized output and add a / after directories
 ---
 
 ### Q3.  More List Files in Unix  
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -R to display subdirectories
+> > ls -m to display names as a comma-separated list
+> > ls -r to display files in reverse order
+> > ls -u to display files by access time
+> > ls -d displays only directories
 
 ---
 
@@ -50,7 +68,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > used to build and execute command lines from standard input. e.g., find /path -type f -print | xargs rm
 
  
 
